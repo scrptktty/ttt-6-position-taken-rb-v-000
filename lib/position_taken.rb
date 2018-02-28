@@ -2,8 +2,8 @@
 
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || nil
-    return board[index]
-  else
     return false
+  else
+    return true
   end
 end
